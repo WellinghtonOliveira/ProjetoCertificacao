@@ -1,0 +1,2 @@
+# ProjetoCertificacao
+ Projeto de certificação - Projeto de criação de um validador de número telefônico Projeto de certificação Projeto de criação de um validador de número telefônicoProjeto de certificação, Not completed Este é um dos projetos necessários para obter a certificação.  Para esse projeto, você criará uma aplicação que verifica se o número de telefone é um número válido de telefone dos Estados Unidos.
