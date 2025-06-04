@@ -66,10 +66,15 @@ input {
     border-radius: 1px;
 }
 
+.btn-verific:active {
+    box-shadow: 1px 1px 1px;
+}
+
 p {
     text-align: center;
     margin: 10px auto;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 600;
+    display: none;
 }
