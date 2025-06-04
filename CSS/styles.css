@@ -1,9 +1,11 @@
+/* reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Corpo */
 body {
     width: 100%;
     height: 100vh;
@@ -11,11 +13,25 @@ body {
     justify-content: center;
 }
 
+/* container */
 .container {
-    background-color: red;
     width: 500px;
     height: 300px;
     border-radius: 3px;
     border: 2px solid black;
     margin: auto;
+}
+
+
+/* Entrada / Saida */
+.display-entrada, .display-saida {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-entrada {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
 }
