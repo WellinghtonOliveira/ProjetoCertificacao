@@ -16,7 +16,7 @@ body {
 /* container */
 .container {
     width: 500px;
-    height: 300px;
+    height: auto;
     border-radius: 3px;
     border: 2px solid black;
     margin: auto;
@@ -38,10 +38,24 @@ body {
 }
 
 input {
-    max-width: 300px;
+    width: 300px;
     height: auto;
     padding: 6px;
     font-size: 18px;
     letter-spacing: 1px;
     margin: 15px auto;
+}
+
+.btn-verific {
+    width: 300px;
+    margin: auto;
+    padding: 6px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+p {
+    text-align: center;
+    margin: 10px auto;
 }
