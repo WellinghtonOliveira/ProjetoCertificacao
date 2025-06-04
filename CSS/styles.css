@@ -32,7 +32,7 @@ body {
 .label-entrada, .label-saida {
     font-size: 20px;
     font-weight: 400;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
     margin-left: 20px;
     margin-top: 10px;
 }
@@ -53,9 +53,23 @@ input {
     font-size: 18px;
     letter-spacing: 1px;
     font-weight: 600;
+    border: none;
+    box-shadow: 2px 2px 5px;
+    background-color: rgb(120, 144, 255);
+    transition: .2s ease-in-out;
+}
+
+.btn-verific:hover {
+    cursor: pointer;
+    background-color: rgb(138, 158, 248);
+    box-shadow: 2px 2px 3px;
+    border-radius: 1px;
 }
 
 p {
     text-align: center;
     margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
