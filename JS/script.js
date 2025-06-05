@@ -1,0 +1,5 @@
+const inputEntrada = document.querySelector("#insira-o-numero")
+const inputSaida = document.querySelector("#resposta-do-numero")
+const respostaEntrada = document.querySelector("#resposta-de-entrada")
+const respostaSaida = document.querySelector("#resposta-de-saida")
+const btnVerificar = document.querySelector("#btn-verificar")
