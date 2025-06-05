@@ -24,12 +24,18 @@ body {
 
 
 /* Entrada / Saida */
-.display-entrada, .display-saida {
+.display-entrada {
     display: flex;
     flex-direction: column;
 }
 
-.label-entrada, .label-saida {
+.display-saida {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+}
+
+.label-entrada {
     font-size: 20px;
     font-weight: 400;
     font-family: sans-serif;
@@ -45,6 +51,7 @@ input {
     letter-spacing: 1px;
     margin: 15px auto;
     transition: .2s ease-in-out;
+    text-align: center;
 }
 
 input:focus {
@@ -54,9 +61,14 @@ input:focus {
     outline: none;
 }
 
-.btn-verific {
-    width: 300px;
-    margin: auto;
+.envelope-button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-verific, .btn-limp {
+    width: 145px;
+    margin: 5px;
     padding: 6px;
     font-size: 18px;
     letter-spacing: 1px;
@@ -64,17 +76,17 @@ input:focus {
     border: none;
     box-shadow: 2px 2px 5px;
     background-color: rgb(120, 144, 255);
-    transition: .2s ease-in-out;
+    transition: .1s ease-in-out;
 }
 
-.btn-verific:hover {
+.btn-verific:hover, .btn-limp:hover {
     cursor: pointer;
     background-color: rgb(138, 158, 248);
     box-shadow: 2px 2px 3px;
     border-radius: 1px;
 }
 
-.btn-verific:active {
+.btn-verific:active, .btn-limp:active {
     box-shadow: 1px 1px 1px;
 }
 
@@ -84,5 +96,7 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
     font-weight: 600;
-    display: none;
+    width: 100%;
+    word-wrap: break-word;
+    height: auto;
 }

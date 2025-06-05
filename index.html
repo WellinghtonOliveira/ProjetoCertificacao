@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="stylesheet" href="./CSS/styles.css">
 
@@ -7,21 +8,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validador</title>
 </head>
+
 <body>
     <div class="container">
         <div class="display-entrada">
             <label class="label-entrada" for="insira-o-numero">Insira o número aqui:</label>
-            <input class="input-entrada-num" id="insira-o-numero" placeholder="Insira o número aqui:" type="text">
-            <button id="btn-verificar" class="btn-verific">Verificar</button>
-            <p id="resposta-de-entrada" class="resposta">###</p>
+            <input class="input-entrada-num" id="user-input" placeholder="Insira o número aqui:" type="text">
+            <div class="envelope-button">
+                <button id="check-btn" class="btn-verific">Verificar</button>
+                <button id="clear-btn" class="btn-limp">Limpar</button>
+            </div>
         </div>
-        <div class="display-saida">
-            <label class="label-saida" for="resposta-do-numero">Número digitado:</label>
-            <input id="resposta-do-numero" placeholder="Número digitado:" type="text">
-            <p id="resposta-de-saida" class="resposta">###</p>
+        <div id="results-div" class="display-saida">
         </div>
     </div>
 
-    <script src="./JS/script.js"></script>t
+    <script src="./JS/script.js"></script>
 </body>
+
 </html>
