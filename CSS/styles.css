@@ -31,7 +31,14 @@ body {
     text-align: center;
 }
 
-
+.div-titulo h1 {
+    margin: 20px 0;
+    font-family: arial;
+    font-weight: 400;
+    font-size: 36px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    
+}
 
 /* Entrada / Saida */
 .display-entrada {
