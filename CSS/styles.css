@@ -32,12 +32,18 @@ body {
 }
 
 .div-titulo h1 {
-    margin: 20px 0;
+    margin-top: 25px;
     font-family: arial;
     font-weight: 400;
     font-size: 36px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-    
+}
+
+.div-titulo p {
+    font-family: serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 25px;
 }
 
 /* Entrada / Saida */
