@@ -160,7 +160,7 @@ function addNovaResposta(resposta) {
 
 // Deleta os lementos existentes
 function limparElementos() {
-    const elem = document.querySelectorAll("#resposta-de-entrada > p")
+    const elem = document.querySelectorAll("#results-div > p")
     inputEntrada.value = ''
 
     elem.forEach((el) => {
